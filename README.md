@@ -1,24 +1,12 @@
-# search-dashboard
+# OPGG 프론트엔드 과제
+## 소환사 검색페이지
+---
+<img src="https://github.com/pikpokjeon/summoner-search-page/blob/main/demo.gif" width="600">
 
-## Project setup
+### 프로젝트 시작하기
 ```
-yarn install
+npm run serve
 ```
+접속 - http://localhost:8080/ 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
