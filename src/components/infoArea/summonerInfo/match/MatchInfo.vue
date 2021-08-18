@@ -4,7 +4,10 @@
       <li class="match-stats">
         <div class="match-type">{{ info.gameType }}</div>
         <div class="time-stamp">{{ info.createDate }}</div>
-        <div class="match-result">{{ info.isWin }}</div>
+        <div class="match-result">
+          <span v-if=" info.isWin" class="accent p-blue">승리</span>
+          <span v-else class="accent p-red">패배</span>
+          </div>
         <div class="match-length">{{ info.gameLength }}</div>
       </li>
       <li class="champ-img-container">
